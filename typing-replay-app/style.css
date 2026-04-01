@@ -1,0 +1,17 @@
+body {
+  font-family: Courier, monospace;
+  background: #0d1117;
+  color: #c9d1d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem;
+}
+
+
+textarea {
+  width: 100%;
+  height: 200px;
+}
