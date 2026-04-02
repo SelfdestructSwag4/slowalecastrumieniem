@@ -1,6 +1,6 @@
-<script>
-function randomPosition() {
-  const img = document.getElementById("car");
+
+export function randomPosition() {
+  const obraz = document.getElementById("car");
 
   const x = Math.random() * (window.innerWidth - 150);
   const y = Math.random() * (window.innerHeight - 150);
@@ -11,4 +11,4 @@ function randomPosition() {
 
 // zmienia pozycję co 1 sekundę
 setInterval(randomPosition, 1000);
-</script>
+
