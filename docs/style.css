@@ -21,8 +21,8 @@ body {
 body::before {
   content: "";
   position: fixed;           /* fixed = przyklejone do okna przeglądarki */
-  top: 50px;                 /* przesunięcie od góry okna */
-  left: 100px;               /* przesunięcie od lewej */
+  top: 0px;                 /* przesunięcie od góry okna */
+  left: 0px;               /* przesunięcie od lewej */
   width: 3160px;              /* szerokość obrazka */
   height: 1832px;             /* wysokość obrazka */
   background-image: url("https://selfdestructswag4.github.io/slowalecastrumieniem/FIAH5.png");
