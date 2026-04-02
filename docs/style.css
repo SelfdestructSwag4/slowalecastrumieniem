@@ -34,14 +34,13 @@ body::before {
 .animan {
   width: 100%;
   height: auto;
-  animation: mymove 5s infinite;
+  animation: mymove 2s infinite alternate;
 }
 
 @keyframes mymove {
-  from {width: 80%}
-  to {width: 120%}
+  from { transform: scale(1); }
+  to { transform: scale(1.2); }
 }
-
 
 
 
