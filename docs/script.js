@@ -1,5 +1,10 @@
 import { startRecording } from './recorder.js';
 import { playRecording } from './player.js';
+// importujemy funkcję spawnCar z pliku cars.js
+import { spawnCar } from './loso.js';
+
+// wywołujemy ją co sekundę
+setInterval(spawnCar, 1000);
 
 const editor = document.getElementById("editor");
 const playBtn = document.getElementById("play");
