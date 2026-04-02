@@ -11,11 +11,25 @@ body {
 
   /* włącz tło, aby było widać blur i mix-blend-mode */
   background-color: yellow;
+  /*
   background-image: url("../FIAH5.png");
   background-size: cover;
   background-position: center;
+  */
 }
 
+body::before {
+  content: "";
+  position: fixed;           /* fixed = przyklejone do okna przeglądarki */
+  top: 50px;                 /* przesunięcie od góry okna */
+  left: 100px;               /* przesunięcie od lewej */
+  width: 300px;              /* szerokość obrazka */
+  height: 200px;             /* wysokość obrazka */
+  background-image: url("../FIAH5.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;               /* za zawartością strony */
+}
 
 textarea {
   backdrop-filter: blur(10px);
