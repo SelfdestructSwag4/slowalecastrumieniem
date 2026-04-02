@@ -31,6 +31,19 @@ body::before {
   z-index: -1;               /* za zawartością strony */
 }
 
+.animan {
+  width: 100%;
+  height: auto;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {width: 80%}
+  to {width: 120%}
+}
+
+
+
 
 .image-box {
   width: 300px;
