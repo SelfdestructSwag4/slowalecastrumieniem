@@ -1,12 +1,13 @@
 
 export function randomPosition() {
   const obraz = document.getElementById("img");
+  img.src = "Toyota-Celica-T200VI.jpg";      // 2
+  img.className = "animan";
 
-  const x = Math.random() * (window.innerWidth - 150);
-  const y = Math.random() * (window.innerHeight - 150);
-
-  img.style.left = x + "px";
-  img.style.top = y + "px";
+  img.style.position = "absolute";
+  img.style.left = Math.random() * window.innerWidth + "px";
+  img.style.top = Math.random() * window.innerHeight + "px";
+  document.body.appendChild(img);
 }
 
 // zmienia pozycję co 1 sekundę
