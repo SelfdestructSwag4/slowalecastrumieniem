@@ -7,7 +7,7 @@ body {
   align-items: center;
   min-height: 200vh;
   margin: 0;
-  padding: 2rem;
+  padding: 5rem;
 
   /* włącz tło, aby było widać blur i mix-blend-mode */
   background-color: yellow;
