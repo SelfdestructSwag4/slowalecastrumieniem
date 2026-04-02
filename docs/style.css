@@ -34,7 +34,7 @@ body::before {
 .animan {
   width: 100%;
   height: auto;
-  animation: mymove 2s infinite alternate;
+  animation: mymove 2s infinite alternate ease-in-out;
 }
 
 @keyframes mymove {
