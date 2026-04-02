@@ -39,7 +39,7 @@ body::before {
 
 @keyframes mymove {
   from { transform: scale(1); }
-  to { transform: scale(1.2); }
+  to { transform: scale(1.1); }
 }
 
 
