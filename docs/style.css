@@ -1,4 +1,17 @@
-
 body {
-  background-color: red;
+  font-family: Courier, monospace;
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200vh;
+  margin: 0;
+  padding: 2rem;
+
+  /* włącz tło, aby było widać blur i mix-blend-mode */
+  background-color: red
+
+  background-size: cover;
+  background-position: center;
 }
