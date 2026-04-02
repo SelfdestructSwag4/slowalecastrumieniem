@@ -18,6 +18,22 @@ body {
   */
 }
 
+.image-box {
+  width: 300px;
+  height: 200px;
+  background: url('https://selfdestructswag4.github.io/slowalecastrumieniem/FIAH5.png') no-repeat center / cover;
+  border: 1px solid black; /* żeby było widać obramowanie */
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin-top: 20px;
+  border: 1px solid black; /* obramowanie dla lepszej widoczności */
+}
+
+
 textarea {
   backdrop-filter: blur(10px);
   width: 100%;
