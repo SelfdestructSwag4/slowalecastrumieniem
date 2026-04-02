@@ -1,6 +1,6 @@
 
 export function randomPosition() {
-  const obraz = document.getElementById("car");
+  const obraz = document.getElementById("img");
 
   const x = Math.random() * (window.innerWidth - 150);
   const y = Math.random() * (window.innerHeight - 150);
