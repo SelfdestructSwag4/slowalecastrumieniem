@@ -10,6 +10,5 @@ export function randomPosition() {
   document.body.appendChild(img);
 }
 
-// zmienia pozycję co 1 sekundę
-setInterval(randomPosition, 1000);
+
 
