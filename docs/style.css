@@ -1,14 +1,14 @@
 body {
   font-family: Courier, monospace;
-   /* background: #0d1117;
-  color: #c9d1d9;*/ 
+   /* background: #0d1117;*/ 
+  color: #ff3300;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 200vh;
   margin: 0;
   padding: 2rem;
-  background-image: url("../FIAH5.png");
+   /* background-image: url("../FIAH5.png"); */
 }
 
 
