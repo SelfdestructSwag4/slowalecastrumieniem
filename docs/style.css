@@ -1,4 +1,4 @@
-body {
+/*body {
   font-family: Courier, monospace;
   color: #ff3300;
 
@@ -9,11 +9,15 @@ body {
   margin: 0;
   padding: 2rem;
 
-  /* włącz tło, aby było widać blur i mix-blend-mode */
+   włącz tło, aby było widać blur i mix-blend-mode 
   background-color: #0d1117;
- /* background-image: url("../FIAH5.png");*/
+  background-image: url("../FIAH5.png");
   background-size: cover;
   background-position: center;
+}
+*/
+body {
+  background-color: red;
 }
 /*
 textarea {
