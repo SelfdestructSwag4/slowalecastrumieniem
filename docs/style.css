@@ -10,7 +10,7 @@ body {
   padding: 2rem;
 
   /* włącz tło, aby było widać blur i mix-blend-mode */
-  background-color: blue;
+  background-color: yellow;
   background-image: url("../FIAH5.png");
   background-size: cover;
   background-position: center;
@@ -25,7 +25,7 @@ textarea {
   color: white;
   font-size: 18px;
   mix-blend-mode: difference;
-  border: none;
+  border: 1px solid #cccccc;
   outline: none;
   padding: 10px;
 }
