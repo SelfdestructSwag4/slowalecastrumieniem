@@ -23,8 +23,8 @@ body::before {
   position: fixed;           /* fixed = przyklejone do okna przeglądarki */
   top: 50px;                 /* przesunięcie od góry okna */
   left: 100px;               /* przesunięcie od lewej */
-  width: 300px;              /* szerokość obrazka */
-  height: 200px;             /* wysokość obrazka */
+  width: 3160px;              /* szerokość obrazka */
+  height: 1832px;             /* wysokość obrazka */
   background-image: url("FIAH5.png");
   background-size: cover;
   background-position: center;
