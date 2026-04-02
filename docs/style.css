@@ -25,7 +25,7 @@ body::before {
   left: 100px;               /* przesunięcie od lewej */
   width: 300px;              /* szerokość obrazka */
   height: 200px;             /* wysokość obrazka */
-  background-image: url("../FIAH5.png");
+  background-image: url("FIAH5.png");
   background-size: cover;
   background-position: center;
   z-index: -1;               /* za zawartością strony */
