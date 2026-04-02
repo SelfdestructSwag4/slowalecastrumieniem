@@ -4,7 +4,7 @@ import { playRecording } from './player.js';
 import { randomPosition } from './loso.js';
 
 // wywołujemy ją co sekundę
-setInterval(spawnCar, 1000);
+setInterval(randomPosition, 1000);
 
 const editor = document.getElementById("editor");
 const playBtn = document.getElementById("play");
