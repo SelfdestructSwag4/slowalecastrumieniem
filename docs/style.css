@@ -10,8 +10,22 @@ body {
   padding: 2rem;
 
   /* włącz tło, aby było widać blur i mix-blend-mode */
-  background-color: red
+  background-color: blue;
 
   background-size: cover;
   background-position: center;
+}
+
+
+textarea {
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 200px;
+  background: rgba(0,0,0,0.3); /* transparent z lekkim kolorem */
+  color: white;
+  font-size: 18px;
+  mix-blend-mode: difference;
+  border: none;
+  outline: none;
+  padding: 10px;
 }
