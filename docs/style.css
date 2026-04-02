@@ -11,7 +11,7 @@ body {
 
   /* włącz tło, aby było widać blur i mix-blend-mode */
   background-color: #0d1117;
-  background-image: url("../FIAH5.png");
+ /* background-image: url("../FIAH5.png");*/
   background-size: cover;
   background-position: center;
 }
