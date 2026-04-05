@@ -71,6 +71,7 @@ img {
   display: block;
   margin-top: 20px;
   border: 1px solid black; /* obramowanie dla lepszej widoczności */
+  opacity: 0.5;
 }
 
 
