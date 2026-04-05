@@ -31,6 +31,17 @@ body::before {
   z-index: -1;               /* za zawartością strony */
 }
 
+    .video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* wideo wypełnia całe tło bez zniekształceń */
+      z-index: -1; /* umieszcza wideo pod treścią */
+    }
+
+
 .animan {
   width: 100%;
   height: auto;
