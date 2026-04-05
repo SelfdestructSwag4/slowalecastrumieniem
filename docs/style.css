@@ -28,7 +28,7 @@ body::before {
   background-image: url("https://selfdestructswag4.github.io/slowalecastrumieniem/FIAH5.png");
   background-size: cover;
   background-position: center;
-  z-index: -1;               /* za zawartością strony */
+  z-index: -2;               /* za zawartością strony */
 }
 
     .video-background {
