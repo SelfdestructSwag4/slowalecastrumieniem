@@ -18,18 +18,21 @@ body {
   */
 }
 
-body::before {
+/* fixed = przyklejone do okna przeglądarki */
+ /*
+  body::before {
   content: "";
-  position: fixed;           /* fixed = przyklejone do okna przeglądarki */
-  top: 0px;                 /* przesunięcie od góry okna */
-  left: 0px;               /* przesunięcie od lewej */
-  width: 3160px;              /* szerokość obrazka */
-  height: 1832px;             /* wysokość obrazka */
+  position: fixed;           
+  top: 0px;               
+  left: 0px;               
+  width: 3160px;              
+  height: 1832px;             
   background-image: url("https://selfdestructswag4.github.io/slowalecastrumieniem/FIAH5.png");
   background-size: cover;
   background-position: center;
-  z-index: -2;               /* za zawartością strony */
+  z-index: -2;              
 }
+*/
 
     .video-background {
       position: fixed;
