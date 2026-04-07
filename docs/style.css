@@ -85,6 +85,5 @@ textarea {
   mix-blend-mode: difference;
   border: 1px solid #cccccc;
   outline: none;
-  padding: 100px;
-  margin-right: 20px;
+  margin-right: 50px;
 }
