@@ -77,8 +77,8 @@ img {
 
 textarea {
   backdrop-filter: blur(10px);
-  width: 80vw;
-  height: 80vw;
+  width: 80px;  /*  vh or vw */
+  height: 80px;
   background: rgba(0, 1, 255, 0.3); /* transparent z lekkim kolorem */
   color: white;
   font-size: 25px;
