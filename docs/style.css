@@ -6,6 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  max-height: 100vh;
   margin: 0;
 
   /* włącz tło, aby było widać blur i mix-blend-mode */
