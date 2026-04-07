@@ -46,8 +46,9 @@ body {
 
 
 .animan {
-  width: 100%;
-  height: auto;
+  
+  /*(width: auto;
+  height: auto;*/
   animation: mymove 2s infinite alternate ease-in-out;
 }
 
