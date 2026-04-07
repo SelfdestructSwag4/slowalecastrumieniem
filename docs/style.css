@@ -77,8 +77,8 @@ img {
 
 textarea {
   backdrop-filter: blur(10px);
-  width: 50%;
-  height: 200px;
+  width: 35vw;
+  height: 35vw;
   background: rgba(255, 244, 0, 0.3); /* transparent z lekkim kolorem */
   color: white;
   font-size: 25px;
@@ -86,4 +86,5 @@ textarea {
   border: 1px solid #cccccc;
   outline: none;
   padding: 100px;
+  margin-right: 20px;
 }
